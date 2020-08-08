@@ -12,7 +12,6 @@ import java.util.List;
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
-
     @Autowired
     private CustomerDAO customerDAO;
 
